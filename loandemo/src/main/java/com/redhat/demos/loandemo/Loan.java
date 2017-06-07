@@ -9,9 +9,13 @@ public class Loan implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label("Amount")
    private int amount;
+   @org.kie.api.definition.type.Label("Approved")
    private boolean approved;
+   @org.kie.api.definition.type.Label("Duration")
    private int duration;
+   @org.kie.api.definition.type.Label("InterestRate")
    private double interestRate;
 
    public Loan()
