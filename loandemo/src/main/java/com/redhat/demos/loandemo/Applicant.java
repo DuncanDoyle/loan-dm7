@@ -9,7 +9,9 @@ public class Applicant implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label("CreditScore")
    private int creditScore;
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
 
    public Applicant()
